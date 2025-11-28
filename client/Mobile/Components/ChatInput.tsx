@@ -30,7 +30,7 @@ export default function ChatInput() {
                     onChangeText={setText}
                     onSubmitEditing={sendTheMessage}
                     placeholder="Type a message.. "
-                    placeholderTextColor={""}
+                    placeholderTextColor={themeColor.text}
                     style={[styles.textInput, { color: themeColor.text }]}
                 />
             </View>

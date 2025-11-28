@@ -1,7 +1,7 @@
 import { io } from "socket.io-client";
 
 export function connectWS() {
-  const socket = io("http://localhost:4600", {
+  const socket = io("https://ap-chat-2kv0.onrender.com", {
     transports: ["websocket"], // IMPORTANT for Expo Web
   });
 
